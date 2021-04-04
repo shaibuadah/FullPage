@@ -1,0 +1,134 @@
+.container p{
+    float: right;
+    text-transform: uppercase;
+    margin-top: -40px;
+}
+.side-nav ul{
+    list-style: none;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+
+}
+.side-nav ul h5{
+    font-weight: bolder;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    text-align: center;
+    border-color: #050316;
+    background-color: #050316;
+    border-radius: 5px;
+    padding: 3px;
+    color: #ffffff;   
+    
+}
+
+.photo-gallery h5{
+    font-weight: bolder;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    text-align: center;
+    border-color: #050316;
+    background-color: #050316;
+    border-radius: 5px;
+    padding: 3px;
+    color: #ffffff;   
+    
+}
+
+.side-nav ul li a{
+    text-decoration: none;
+    color: #251b81;
+    padding: 5px;
+    
+
+    
+}
+
+.side-nav ul li a:hover{
+    color: #a3a9df;
+    transition: 0.5s ease-in;
+}
+
+#left-sidebar{
+    width: 15%;
+    float: left;
+    background: rgb(240, 240, 240);
+    min-height: 500px;
+    text-align: justify;
+    margin-left: 0px;
+    margin-top: -10px;
+    padding: 10px;
+    padding-top: 15px;
+    min-height: 1075px;
+}
+#right-sidebar{
+    width: 25%;
+    float: right;
+    background: rgb(255, 255, 255);
+    min-height: 500px;
+    text-align: center;
+    border-left: 2px solid gray;
+    margin-top: -1082px;
+    padding-top: 10px;
+    min-height: 1000px;
+    
+}
+
+#middle-sidebar{
+    width: 59%;
+    margin-left: 209px;
+    margin-top: -20px;
+    background: rgb(255, 255, 255);
+    min-height: 500px;
+    text-align: justify;
+    padding: 15px;
+    padding-top: 10px;
+    min-height: 1082px;
+
+  
+}
+
+#navbar{
+    overflow: hidden;
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+img{
+    width: 35%;
+    margin: 1.66%;
+    border: 2px solid gray;
+    border-spacing: 5px;
+}
+
+footer{
+    text-align: center;
+    border-top: 2px solid green
+}
+.clearfix:after{
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clearfix{
+    display: inline-block;
+}
+
+html [xmlns] .clearfix{
+    display: block;
+}
+
+*html .clearfix{
+    height: 1%;
+}
+
+
+
